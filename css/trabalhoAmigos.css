@@ -1,0 +1,247 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; 
+
+
+}
+.body {
+    background-color: black;
+    background: linear-gradient(rgb(253, 194, 86),rgb(249, 111, 31),rgb(111, 1, 133));
+    background-size: 100%;
+    
+.cabecalho {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    gap: 60px;
+    background-color: rgba(158, 97, 4, 0.664);
+}
+.e {
+    text-decoration: none;
+    font-family: 'fontefoda';
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+    border: 1px rgba(255, 161, 54, 0.76) hidden;
+    text-align: center;
+}
+.e:hover {
+ border: 1px rgba(245, 149, 24, 0.89) solid;
+ transition: 0.5s;
+ font-size: 25px;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    transition: all 1s;
+    height: 100%;
+    width: 100%;
+}
+
+.logo:hover {
+    transform: rotateZ(360deg);
+    -webkit-transform: rotateZ(360deg);
+}
+.escritas {
+    width: 80%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-right: 20px;
+}
+
+p {
+    margin-bottom: 25px;
+}
+
+
+}
+
+.Entrada {
+    display: flex;
+    justify-content: center;
+    font-size: 300%;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Lorenzo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+
+.niko{
+    flex-basis: 20%;
+    height: 350px;
+     align-self: center;
+}
+.foto{
+    height: 600px;
+    width: auto;
+    flex-basis: 30%;
+}
+
+.Lorenzo .pap_tails {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ 
+}
+
+.tails{
+    flex-basis: 20%;
+    height: 200px;
+}
+.papyrus{
+    flex-basis: 100px;
+    height: 250px;
+    
+}
+
+
+.sobre { 
+    display: flex;
+    justify-content: center;
+    font-size: 200%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    border: 5px black;
+}
+
+ .gosto {
+    display: flex;
+  
+    flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+    font-size: 170%;
+}
+
+.gemeo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif   ;
+}
+.gemeo img{
+    height: 350px;
+    width: auto;
+}
+
+
+.cor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.laranja{
+    height: 350px;
+    width: auto;
+    flex-basis: 60%;
+}
+
+
+.saitama{
+    position: absolute;
+    height: 450px;
+    width: auto;
+    margin-left: 1170px;
+    margin-bottom: 450px ;
+}
+.foxy{
+     position: absolute;
+    height: 400px;
+    width: auto;
+    margin-right: 150px;
+    margin-top: 2500px ;
+}
+.vegeta{
+      position: absolute;
+    height: 450px;
+    width: auto;
+    margin-right: 1100px;
+    margin-top: 900px ;
+}
+
+    .relax{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.relax img{
+    height: 350px;
+    width: auto;
+}
+
+.jogos{
+    color: rgb(226, 98, 0);
+display: block;
+    background-image: url(../img/bonfire.jpg);
+   background-repeat: no-repeat;
+    background-size: 95%;
+    background-position: center;
+    
+
+
+   
+}
+.jogos p{
+    display: flex;
+    font-size: 300%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+}
+
+.jogos li {
+    font-size: 250%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 45px;
+    margin-left: 100px;
+}
+
+.ideias{
+    color: rgb(252, 208, 255);
+    display: block;
+    background-image: url(../img/sonhos.gif);
+    background-repeat: no-repeat;
+    background-size: 95%;
+    background-position: center;
+}
+
+.ideias p {
+    justify-self: center;
+    margin: 80px;
+}
+
+.ideias h1{
+    display: flex;
+    justify-content: flex-start;
+    margin: 100px;
+}
+.ideias h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+.ideias h3{
+    display: flex;
+    justify-content: end;
+    margin: 100px;
+}
+
+
+

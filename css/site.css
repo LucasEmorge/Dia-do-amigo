@@ -1,0 +1,210 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; 
+}
+
+@font-face {
+    font-family: fontefoda;
+    src: url('SmoochSans-VariableFont_wght.ttf') format('TrueType');
+}
+
+
+.cabecalho {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    gap: 60px;
+    background-color: rgb(6, 65, 19);
+}
+.e {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+    border: 1px red hidden;
+    text-align: center;
+}
+.e:hover {
+ border: 1px red solid;
+ transition: 0.5s;
+ font-size: 25px;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    transition: all 1s;
+    height: 100%;
+    width: 100%;
+}
+
+.logo:hover {
+    transform: rotateZ(360deg);
+    -webkit-transform: rotateZ(360deg);
+}
+.escritas {
+    width: 80%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-right: 20px;
+}
+.body {
+ 
+    background: linear-gradient(rgb(0, 150, 32),rgb(239, 255, 21),rgb(238, 79, 113));
+    background-size: 100%;
+    
+}
+
+.Entrada {
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+    font-size: 300%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Times, serif, Courier, monospace;
+}
+
+.Gustavo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+
+.hihihiha{
+    flex-basis: 20%;
+    height: 300px;
+     align-self: center;
+     margin-left: 10px;
+}
+.foto{
+    
+    height: 500px;
+     align-self: center;
+     margin-left: 10px;
+}
+
+.Gustavo .sans_pea {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+}
+
+.peashooter{
+    flex-basis: 20%;
+    height: 200px;
+    margin: 10px;
+}
+.sans{
+    flex-basis: 100px;
+    height: 200px;
+    margin: 10px;
+}
+
+
+.sobre { 
+    display: flex;
+    justify-content: center;
+    font-size: 240%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: 5px black;
+}
+
+ .gosto {
+    display: flex;
+  
+    flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+    font-size: 170%;
+}
+
+.gemeo{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif   ;
+}
+.gemeo li{
+    align-self: flex-start;
+}
+
+.curioso { 
+    display: flex;
+    justify-content: center;
+    font-size: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: 5px black;
+}
+
+.texto1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+.imagem1 {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    height: 400px;
+    margin-left: 610px;
+    margin-bottom: 40px;
+ 
+}
+
+
+
+.jogos{
+   justify-content: space-around;
+    background-image: url(../img/pvz.webp);
+   background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 5px;
+    display: flex;
+   
+}
+.jogos li{
+    margin:27px;
+    margin-left: 210px;
+}
+
+
+.bom p{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-left: 70px;
+    font-size:40px;
+}
+
+   .bom {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex-direction: column;
+    width: 50%;
+    color: rgb(37, 59, 2);
+}
+.ruim{
+    margin-left: 140px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex-direction: column;
+    color: purple;
+}
+.ruim p{
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+
+
+

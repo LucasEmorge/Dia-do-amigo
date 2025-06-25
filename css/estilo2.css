@@ -1,0 +1,35 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.imagem1{
+transition: all 1s;
+cursor: pointer;
+}
+
+.imagem1:hover {
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+
+.imagem2 {
+    transition: all 1s;
+cursor: pointer;
+}
+
+.imagem2:hover {
+    -webkit-filter: blur(7px);
+    filter: blur(7px);
+}
+
+.imagem3 {
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.imagem3:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}

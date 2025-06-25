@@ -1,0 +1,15 @@
+h1{color: red;}
+#menu-site h1{color: aquamarine;}
+#menu-site a{color: coral;}
+#conteudo-site h1{color: goldenrod;}
+.caixa {
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    float: left;
+    background: aqua;
+}
+.caixa b{
+    font-size: 20px;
+    color: greenyellow;
+}

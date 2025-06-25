@@ -1,0 +1,156 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background:linear-gradient(to bottom, #86c5f8,#2d88b3);
+  }
+   
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 1000px;
+    margin: auto;
+  }
+   
+  .card {
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+    margin-top: 15px;
+    width: 100%;
+  }
+  .card.reverse {
+    flex-direction: row-reverse;
+    margin-bottom: 10px;
+  }
+   
+  .imagem {
+    flex: 1 1 300px;
+    min-width: 200px;
+  }
+   
+  .imagem1 {
+    flex: 1 1 300px;
+    min-width: 400px;
+  }
+
+  .imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+.imagem {
+  width: 200px;
+}
+
+  .ovo {
+    width: 90%;
+    height: 100%;
+  }
+   
+  .texto {
+    flex: 2 1 400px;
+    padding: 24px;
+    background-color: #fff;
+    padding: 16px;
+    margin-left: 15px;
+    width: 100%;
+  }
+   
+  .texto h2 {
+    margin-top: 0;
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+   
+  .texto ul li {
+    font-size: 25px;
+    line-height: 1.6;
+  }
+   
+  @media (max-width: 768px) {
+    .card,
+    .card.reverse {
+      flex-direction: column;
+    }
+   
+    .imagem {  
+      width: 100%;
+    }
+  }
+   
+  h2{
+    background-color:#fff;
+    text-align: center;
+    border-radius: 10px;
+    color: #2d7ec0;
+  }
+
+.cabecalho {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(8, 100, 206);
+    display: flex;
+    gap: 60px;
+}
+.e {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 20px;
+  padding-left: 10px;
+  border: 1px red hidden;
+  text-align: center;
+}
+.e:hover {
+border: 1px red solid;
+transition: 0.5s;
+font-size: 25px;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  transition: all 1s;
+}
+.logo:hover {
+  transform: rotateZ(360deg);
+  -webkit-transform: rotateZ(360deg);
+}
+.escritas {
+    width: 80%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+@font-face {
+    font-family: fontefoda;
+    src: url('SmoochSans-VariableFont_wght.ttf') format('TrueType');
+}
+.comidas{
+  margin-top: 10px;
+}
+.texto2 {
+  width: 50%;
+}
+p{
+  font-size: 40px;
+  align-items: center;
+}
+li{
+  font-size: 25px;
+}
+img {
+  width: 150px;
+  height: 150px;
+}

@@ -1,0 +1,94 @@
+@font-face {
+    font-family: fontefoda;
+    src: url('SmoochSans-VariableFont_wght.ttf') format('TrueType');
+}
+body {
+    background: linear-gradient(to bottom, #000000, #565d61);
+    min-height: 100vh;
+}
+.cabecalho {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    gap: 60px;
+}
+.e {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+    border: 1px red hidden;
+    text-align: center;
+}
+.e:hover {
+ border: 1px red solid;
+ transition: 0.5s;
+ font-size: 25px;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    transition: all 1s;
+    height: 100%;
+    width: 100%;
+}
+
+.logo:hover {
+    transform: rotateZ(360deg);
+    -webkit-transform: rotateZ(360deg);
+}
+.escritas {
+    width: 80%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-right: 20px;
+}
+p {
+    font-family: fontefoda;
+    margin: 15px;
+    color: white;
+    font-size: 30px;
+}
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.grupo{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.fotoGrupo{
+    background-color: rgb(0, 0, 0);
+    width: 500px;
+    height: 400px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border-color: red;
+    border-style: solid;
+    color: white;
+    display: inline-block;
+    background-size: cover;
+    background-image: url(img/WhatsApp\ Image\ 2025-06-25\ at\ 14.46.24.jpeg);
+    background-repeat: no-repeat;
+    
+}
+.Descrição{
+    background-color: rgb(0, 0, 0);
+    width: 550px;
+    height: 300px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border-color: red;
+    border-style: solid;
+    display: inline-block;
+    
+}
+
+

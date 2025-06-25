@@ -1,0 +1,334 @@
+@font-face {
+    font-family: Engraçada;
+    src: url(Fontes/one-piece-font.ttf);
+}
+@font-face {
+    font-family: Batman;
+    src: url(Fontes/batmfa__.ttf);
+}
+@font-face {
+    font-family: Pokemon;
+    src: url(Fontes/Pokemon\ Classic.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cabecalho {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    gap: 60px;
+}
+.e {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+    border: 1px #0484cf hidden;
+    text-align: center;
+}
+.e:hover {
+ border: 1px #0484cf solid;
+ transition: 0.5s;
+ font-size: 25px;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    transition: all 1s;
+    height: 100%;
+    width: 100%;
+}
+
+.logo:hover {
+    transform: rotateZ(360deg);
+    -webkit-transform: rotateZ(360deg);
+}
+.escritas {
+    width: 80%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-right: 20px;
+}
+.D {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0484cf;
+    font-weight: bold;
+    font-size: 50px;
+    width: 100%;
+        padding: 1px 10px;
+}
+.Laurindo {
+    font-family: Engraçada;
+}
+.Batman{
+    font-family: Batman;
+}
+.w {
+    width: 20%;
+    height: 30%;
+}
+.q{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  .caixa {
+    display: block;
+    width: 22%;
+    background: #bf2706;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 2%;
+}
+
+
+  input[type="checkbox"] {
+    display: none;
+  }
+
+
+  .conteudo {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+    padding-bottom: 10px;
+  }
+
+  input[type="checkbox"]:checked ~ .conteudo {
+    max-height: 100%;
+  }
+
+.w {
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 10px;
+  }
+  .p {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #5c482b;
+    color: white;
+    gap: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    transition: 0.4ms;
+    width: 200%;
+    position: relative;
+  }
+  .p:hover .p0 {
+    height: 200px;
+  }
+  .L {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body {
+    height: 100%;
+  background: linear-gradient(180deg, black 0%, #0484cf 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  }
+  .img {
+    width: 45%;
+  }
+h1 {
+  text-align: center;
+}
+.Persona {
+  margin-top: 2%;
+  color:white;
+}
+  input[type="checkbox"] {
+    display: none;
+  }
+
+.Personalidade {
+  display: flex;
+  margin-top: 2%;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+  padding-bottom: 10px;
+}
+
+  input[type="checkbox"]:checked ~ .Personalidade {
+    max-height: 800px;
+  }
+    .caixa2 {
+    display: block;
+    width: 50%;
+    background: #bf2706;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    cursor: pointer;
+    color: white;   
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    font-size: 12px;
+}
+.H {
+  color: white;
+  text-align: center;
+  margin-bottom: 2%;
+}
+.Lista {
+  font-size: 25px;
+  padding-top: 200px;
+  gap: 20px;
+  padding-left: 30px;
+}
+.img1 {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  padding-top: 20px;
+}
+#mostrar-perso {
+  display: none;
+}
+
+#mostrar-perso:checked + .Personalidade {
+  max-height: 800px;
+}
+    .caixa3 {
+    display: block;
+    width: 50%;
+    background: #bf2706;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    cursor: pointer;
+    color: white;   
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    font-size: 12px;
+}
+#mostrar-jogos {
+  display: none;
+}
+#mostrar-jogos:checked + .Games {
+  max-height: 300px;
+}
+.Games {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+}
+.Lista2 {
+  font-size: 25px;
+  padding-left: 20px;
+}
+    .caixa4 {
+    display: block;
+    width: 50%;
+    background: #bf2706;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    cursor: pointer;
+    color: white;   
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    font-size: 12px;
+}
+#mostrar-comidas {
+  display: none;
+}
+#mostrar-comidas:checked + .Comer {
+  max-height: 300px;
+}
+.Comer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+}
+.Lista3 {
+  font-size: 25px;
+  padding-left: 20px;
+}
+.caixa5 {
+      display: block;
+    width: 50%;
+    background: #bf2706;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    cursor: pointer;
+    color: white;   
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    font-size: 12px;
+}
+#mostrar-curiosidades {
+  display: none;
+}
+#mostrar-curiosidades:checked + .Curiosa{
+max-height: 300px;
+}
+.Curiosa {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+}
+.Lista4 {
+  font-size: 25px;
+  padding-left: 20px;
+}
+.Container1 {
+  display: flex;
+  width: 100%;
+  margin-top: 5%;
+      margin-bottom: 5%;
+}
+.Container2 {
+  display: flex;
+  width: 100%;
+    margin-top: 4%;
+    margin-bottom: 65px;
+}
+.conjunto1 {
+  width: 50%;
+}
+.conjunto2 {
+  width: 50%;
+}
+.conjunto3 {
+  width: 50%;
+}
+.conjunto4 {
+  width: 50%;
+}
